@@ -1,0 +1,55 @@
+.collaboration-container {
+  text-align: center;
+  color: #ddd;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.employee-info {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.total-days-heading {
+  font-size: 2rem;
+}
+
+.total-days {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.project-heading {
+  font-size: 2.2rem;
+  margin: 3rem 0 1rem 0;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+.project-table th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.bordered-container {
+  display: inline-block;
+  border: 1px solid #f2f2f29f;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
