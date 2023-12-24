@@ -1,11 +1,11 @@
-# Work Buddy
+# Work Buddy client
 
-Work Buddy Client is a responsive front-end React application developed using Vite, offering a user-friendly interface for efficient collaboration data analysis. The application seamlessly integrates with a Java Spring Boot backend for handling file uploads and retrieving collaboration results. Additionally, it supports optional storage of CSV files in a PostgreSQL database.
+Work Buddy client is a responsive front-end React application developed using Vite, offering a user-friendly interface for efficient collaboration data analysis. The application seamlessly integrates with a Java Spring Boot backend for handling file uploads and retrieving collaboration results. Additionally, it supports optional storage of CSV files in a PostgreSQL database.
 
 ## Features
 
-- **File Upload**: Drag and drop or select CSV files for uploading.
-- **File Management**: Remove selected files and display file details.
+- **File Upload**: Drag and drop or select CSV file for uploading.
+- **File Management**: Remove selected file and display file details.
 - **Configuration Options**: Specify whether the file has a header and choose to store the file.
 - **Upload to Backend**: Utilizes a Java Spring Boot backend for processing file uploads.
 - **Longest Collaboration Data**: Retrieve the longest collaborating pair from the csv file.
@@ -16,7 +16,7 @@ Work Buddy Client is a responsive front-end React application developed using Vi
 1. **Clone the repository:**
 
    ```bash
-   git clone <https://github.com/Svetlioo/work-buddy-client.git>
+   git clone https://github.com/Svetlioo/work-buddy-client.git
    ```
 
 2. **Install dependancies:**
@@ -35,7 +35,7 @@ Work Buddy Client is a responsive front-end React application developed using Vi
 
 ### Fetching Longest Collaboration Data
 
-To fetch the longest collaboration data from the backend, follow these steps:
+To fetch the longest collaborating pair, the length in days and the projects they collaborated on from the backend, follow these steps:
 
 1. Ensure that a file has been successfully uploaded.
 2. Look for the "Press to get the longest" button.
