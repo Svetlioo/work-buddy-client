@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  font-size: 2rem;
+  color: #ddd;
+}
+
+.heading {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.file-upload-section {
+  width: 100%;
+  max-width: 60rem;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropzone {
+  border: 2px dashed #ddd;
+  padding: 3rem;
+  cursor: pointer;
+  width: 75%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.dropzone:hover,
+.dropzone.file-selected {
+  border: 2px dashed #007bff;
+}
+
+.dropzone p {
+  margin: 0;
+}
+
+.dropzone.drag-over {
+  border: 2px dashed #999;
+  background-color: #b4b5b6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.preview {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.preview button {
+  background-color: #4caf50;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.preview .close-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.checkbox-container input {
+  margin-right: 0.5rem;
+}
+
+.longest-button {
+  background-color: #ff6600;
+  color: white;
+  padding: 1.1rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  min-width: 45rem;
+  max-width: 60rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  .longest-button {
+    min-width: 30rem;
+  }
+}
