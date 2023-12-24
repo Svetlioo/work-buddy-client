@@ -124,7 +124,9 @@ function FileUpload({
           <input {...getInputProps()} />
           <p>
             {isFileSelected
-              ? `File "${file?.name}" has been selected`
+              ? `File ${
+                  file ? `"${file?.name}"` : ""
+                } has been selected successfully`
               : "Drag & drop a file here, or click to select a file"}
           </p>
         </div>
@@ -152,7 +154,7 @@ function FileUpload({
           </div>
         )}
       </div>
-      {isFileSelected && (
+      {isFileSelected && file && (
         <div className={styles["checkbox-container"]}>
           <label>
             <input
